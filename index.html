@@ -3,20 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Primeira Página HTML</title>
+    <title>Formulário de Cadastro</title>
 </head>
 <body>
-    <header>
-        <h1>Bem-vindo à minha primeira página HTML!</h1>
-    </header>
+    <h2>Formulário de Cadastro</h2>
+    <form action="faction_page.php" method="POST">
+        <label for="fname">Primeiro nome:</label>
+        <input type="text" id="fname" name="fname" value="Artanzela"><br><br>
 
-    <section>
-        <p>Olá, meu nome é [Seu Nome].</p>
-        <p>Esta é a minha primeira página criada com HTML. Estou aprendendo e espero que você tenha gostado da visita!</p>
-    </section>
+        <label for="lname">Sobrenome:</label>
+        <input type="text" id="lname" name="lname" value="Dias"><br><br>
 
-    <footer>
-        <p>Obrigado pela visita!</p>
-    </footer>
+        <input type="submit" value="Confirmar">
+    </form>
 </body>
 </html>
